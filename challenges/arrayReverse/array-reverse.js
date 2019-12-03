@@ -1,10 +1,8 @@
 function reverseArray(arr) {
-    let output = [];
-    while(arr.length) {
-        output.push(arr.pop());
+    let reversed = [];
+    for(var i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
     }
-
-    return output;
 }
 
 console.log(reverseArray([1, 2, 3, 4, 5]));
