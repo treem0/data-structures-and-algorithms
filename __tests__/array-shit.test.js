@@ -1,0 +1,1 @@
+const { insertShiftArray } = require('../challenges/arrayShift/array-shift.js');
