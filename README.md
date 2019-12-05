@@ -22,7 +22,11 @@ Write a function called insertShiftArray which takes in an array and the value t
 We cannot use built in array methods to do this.
 
 ## Approach & Efficiency
-Loop through the array until the half of the array by dividing it by two and breaking the loop. Then I need to add the value in the middle of the index and continue looping through the rest of the array.
+-Take in an array and a value.
+-Create a new empty array.
+-Create a variable that is the middle of the array.
+-Loop through the array and create if statements regarding the position you are at on the array.
+-Add in the value ad the middle of array.
 
 ## Solution
-<!-- Embedded whiteboard image -->
+Created a new array and a variable that find the middle of the array with Math.ceil and dvidides the arrays length by 2. Loop through the array with a for loop. Created logic so the first half of the array gets looped into the new array. When the loop hits the middle of the array it adds a value at that index. And then it loops through the rest shifting each index by -1. 
