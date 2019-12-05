@@ -1,4 +1,4 @@
-const { BinarySearch } = require('../challenge/arrayBinarySearch/array-binary-search');
+const { BinarySearch } = require('../challenges/arrayBinarySearch/array-binary-search');
 
 describe('binary search', () => {
   it('should return the index of arrays element or -1 if it doesnt exist', () => {

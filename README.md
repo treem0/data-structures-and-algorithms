@@ -25,10 +25,6 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 We are not allowed to use the array method that find elements.
 
 ## Approach & Efficiency
--I need to take in an array.
--Create a new array with the spread operation.
--For loop through the original array and give take change the index by -1, esentially reversing the order.
--Return the mutated array that is now reversed.
+Loop through the array comparing each index of the array to the given value.
 
 ## Solution
-Created an new array with the the spread operation of the old array. Then looped through the array giving each item a negative index to reverse the order.
