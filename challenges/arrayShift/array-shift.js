@@ -1,15 +1,23 @@
 function insertShiftArray(arr, value) {
-    let tmp = [...arr];
+  const newArray = [];
+  const midIndex = Math.ceil((arr.length) / 2);
+  for(let i = 0; i < arr.length + 1; i++){
+    if(i < midIndex) {
+      newArray[i] = arr[i];
+    }
+    if(i === midIndex) {
+      newArray[i] = value;
+    }
+    if(i > midIndex) {
+      newArray[i] = arr[i - 1];
+    }
 
-    for(let i = 0; i < arr.length; i++){
-        let num = (arr.length - i) + value;
-        arr[i] = tmp[num];
-    }  
+  }  
 
-    return arr;
+  return newArray;
 }
 
 console.log(insertShiftArray([1, 2, 3, 4, 5], 5));
 
 
-export default insertShiftArray();
+module.exports = { insertShiftArray };

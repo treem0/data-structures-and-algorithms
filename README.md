@@ -22,7 +22,7 @@ Write a function called insertShiftArray which takes in an array and the value t
 We cannot use built in array methods to do this.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Loop through the array until the half of the array by dividing it by two and breaking the loop. Then I need to add the value in the middle of the index and continue looping through the rest of the array.
 
 ## Solution
 <!-- Embedded whiteboard image -->
