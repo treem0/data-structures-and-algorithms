@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/treem0/data-structures-and-algorithms#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lint": "^0.7.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
