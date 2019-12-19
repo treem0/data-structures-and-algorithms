@@ -99,7 +99,7 @@ class AnimalShelter {
                 super(type);
                 type = 'cat'
             }
-            
+
         }
 
         class AnimalShelter {
