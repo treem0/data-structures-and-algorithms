@@ -36,4 +36,4 @@ New idea but we could use the stack system we have been learning throughout the 
 ## Solution
 Created a variable named stack that starts as an empty array, and then an object with the opening / closing brackets. For looped through the string and if the index reaches an opening bracket it pushes it to the stack. If the loop gets to the end of the stack without matching it returns false. If the loop ends and the stack is not empty return false. If all of those pass, return true. I did notice this method will only work when there are only paranthese in the string, there can't be and numbers or strings within the bracket.
 
-![Getting Started](challenges\multiBracketValidation\IMG_20191219_163521.jpg)
+![Getting Started](./challenges/multiBracketValidation/IMG_20191219_163521.jpg)
