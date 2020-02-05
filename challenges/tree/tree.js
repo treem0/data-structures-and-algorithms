@@ -67,6 +67,3 @@ export class BinaryTree {
     }
 }
 
-export class BinarySearchTree {
-
-}
